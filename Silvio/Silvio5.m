@@ -8,7 +8,8 @@ xxxxxxxx
 
 #pre-defifinicoes do octave
 #clear all; more off;clc; close all; %limpa o ambiente de trabalho
-clearvars -except A ##### apaga todas as variaveis, menos a tabela A
+clearvars -except A; close all; ##### apaga todas as variaveis, menos a tabela A
+
 #pkg load control; pkg load signal;  %carrega pacotes
  pkg load io;  %carrega pacotes
 
@@ -111,26 +112,40 @@ error7 = F(16 , b:5:c);
 a = c+1;
 b = a+1;
 
-errorbar(x_200k,y1,error1,'o');
+w=errorbar(x_200k,y1,error1,'o');
+set(w,'linewidth',1);
+
 hold on;
 
-errorbar(x_200k,y2,error2,'o');
-errorbar(x_200k,y3,error3,'o');
-errorbar(x_200k,y4,error4,'o');
-errorbar(x_200k,y5,error5,'o');
-errorbar(x_200k,y6,error6,'o');
-errorbar(x_200k,y7,error7,'o');
+w=errorbar(x_200k,y2,error2,'o');
+set(w,'linewidth',1);
+
+w=errorbar(x_200k,y3,error3,'o');
+set(w,'linewidth',1);
+
+w=errorbar(x_200k,y4,error4,'o');
+set(w,'linewidth',1);
+
+w=errorbar(x_200k,y5,error5,'o');
+set(w,'linewidth',1);
+
+w=errorbar(x_200k,y6,error6,'o');
+set(w,'linewidth',1);
+
+w=errorbar(x_200k,y7,error7,'o');
+set(w,'linewidth',1);
+
 
 
 hold off;
 
-title('freq 200k injecao 1->2');
+title('Frequência 200 kHz - Injeção de corrente de eletrodo 1 para eletrodo 2');
 xlabel('Numero de pontos');
-ylabel('Amplitude (real)');
+ylabel('Amplitude (mV)');
 
 legend('eletrodo 1 - eletrodo 2','eletrodo 3 - eletrodo 2','eletrodo 4 - eletrodo 2'
 ,'eletrodo 5 - eletrodo 2','eletrodo 6 - eletrodo 2','eletrodo 7 - eletrodo 2'
-,'eletrodo 8 - eletrodo 2');
+,'eletrodo 8 - eletrodo 2','location', 'northeastoutside');
 
 saveas (hf1, "resultado_freq200_padrao_1_2.jpeg");
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -169,26 +184,35 @@ error7 = F(16 , b:5:c);
 a = c+1;
 b = a+1;
 
-errorbar(x_125k,y1,error1,'o');
+w=errorbar(x_125k,y1,error1,'o');
+set(w,'linewidth',1);
+
 hold on;
 
-errorbar(x_125k,y2,error2,'o');
-errorbar(x_125k,y3,error3,'o');
-errorbar(x_125k,y4,error4,'o');
-errorbar(x_125k,y5,error5,'o');
-errorbar(x_125k,y6,error6,'o');
-errorbar(x_125k,y7,error7,'o');
+w=errorbar(x_125k,y2,error2,'o');
+set(w,'linewidth',1);
+w=errorbar(x_125k,y3,error3,'o');
+set(w,'linewidth',1);
+w=errorbar(x_125k,y4,error4,'o');
+set(w,'linewidth',1);
+w=errorbar(x_125k,y5,error5,'o');
+set(w,'linewidth',1);
+w=errorbar(x_125k,y6,error6,'o');
+set(w,'linewidth',1);
+w=errorbar(x_125k,y7,error7,'o');
+set(w,'linewidth',1);
+
 
 
 hold off;
 
-title('freq 125k injecao 1->2');
+title('Frequência 125 kHz - Injeção de corrente de eletrodo 1 para eletrodo 2');
 xlabel('Numero de pontos');
-ylabel('Amplitude (real)');
+ylabel('Amplitude (mV)');
 
 legend('eletrodo 1 - eletrodo 2','eletrodo 3 - eletrodo 2','eletrodo 4 - eletrodo 2'
 ,'eletrodo 5 - eletrodo 2','eletrodo 6 - eletrodo 2','eletrodo 7 - eletrodo 2'
-,'eletrodo 8 - eletrodo 2');
+,'eletrodo 8 - eletrodo 2','location', 'northeastoutside');
 
 saveas (hf2, "resultado_freq125_padrao_1_2.jpeg");
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -198,7 +222,7 @@ hf3 = figure(3);
 #padrao de injecao 1->2
 #frequencia fixa 100k
 
-x_100k = [12 18 48 24 30 36 42 48 54 60 72 102]; #numero de pontos coletados
+x_100k = [12 18 24 30 36 42 48 54 60 72 102]; #numero de pontos coletados
 
 t = length(x_100k);
 c = c+5*t;
@@ -227,26 +251,32 @@ error7 = F(16 , b:5:c);
 a = c+1;
 b = a+1;
 
-errorbar(x_100k,y1,error1,'o');
+w=errorbar(x_100k,y1,error1,'o');
+set(w,'linewidth',1);
 hold on;
 
-errorbar(x_100k,y2,error2,'o');
-errorbar(x_100k,y3,error3,'o');
-errorbar(x_100k,y4,error4,'o');
-errorbar(x_100k,y5,error5,'o');
-errorbar(x_100k,y6,error6,'o');
-errorbar(x_100k,y7,error7,'o');
-
+w=errorbar(x_100k,y2,error2,'o');
+set(w,'linewidth',1);
+w=errorbar(x_100k,y3,error3,'o');
+set(w,'linewidth',1);
+w=errorbar(x_100k,y4,error4,'o');
+set(w,'linewidth',1);
+w=errorbar(x_100k,y5,error5,'o');
+set(w,'linewidth',1);
+w=errorbar(x_100k,y6,error6,'o');
+set(w,'linewidth',1);
+w=errorbar(x_100k,y7,error7,'o');
+set(w,'linewidth',1);
 
 hold off;
 
-title('freq 100k injecao 1->2');
+title('Frequência 100 kHz - Injeção de corrente de eletrodo 1 para eletrodo 2');
 xlabel('Numero de pontos');
-ylabel('Amplitude (real)');
+ylabel('Amplitude (mV)');
 
 legend('eletrodo 1 - eletrodo 2','eletrodo 3 - eletrodo 2','eletrodo 4 - eletrodo 2'
 ,'eletrodo 5 - eletrodo 2','eletrodo 6 - eletrodo 2','eletrodo 7 - eletrodo 2'
-,'eletrodo 8 - eletrodo 2');
+,'eletrodo 8 - eletrodo 2','location', 'northeastoutside');
 
 saveas (hf3, "resultado_freq100_padrao_1_2.jpeg");
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -285,26 +315,32 @@ error7 = F(16 , b:5:c);
 a = c+1;
 b = a+1;
 
-errorbar(x_50k,y1,error1,'o');
+w=errorbar(x_50k,y1,error1,'o');
+set(w,'linewidth',1);
 hold on;
 
-errorbar(x_50k,y2,error2,'o');
-errorbar(x_50k,y3,error3,'o');
-errorbar(x_50k,y4,error4,'o');
-errorbar(x_50k,y5,error5,'o');
-errorbar(x_50k,y6,error6,'o');
-errorbar(x_50k,y7,error7,'o');
-
+w=errorbar(x_50k,y2,error2,'o');
+set(w,'linewidth',1);
+w=errorbar(x_50k,y3,error3,'o');
+set(w,'linewidth',1);
+w=errorbar(x_50k,y4,error4,'o');
+set(w,'linewidth',1);
+w=errorbar(x_50k,y5,error5,'o');
+set(w,'linewidth',1);
+w=errorbar(x_50k,y6,error6,'o');
+set(w,'linewidth',1);
+w=errorbar(x_50k,y7,error7,'o');
+set(w,'linewidth',1);
 
 hold off;
 
-title('freq 50k injecao 1->2');
+title('Frequência 50 kHz - Injeção de corrente de eletrodo 1 para eletrodo 2');
 xlabel('Numero de pontos');
-ylabel('Amplitude (real)');
+ylabel('Amplitude (mV)');
 
 legend('eletrodo 1 - eletrodo 2','eletrodo 3 - eletrodo 2','eletrodo 4 - eletrodo 2'
 ,'eletrodo 5 - eletrodo 2','eletrodo 6 - eletrodo 2','eletrodo 7 - eletrodo 2'
-,'eletrodo 8 - eletrodo 2');
+,'eletrodo 8 - eletrodo 2','location', 'northeastoutside');
 
 saveas (hf4, "resultado_freq50_padrao_1_2.jpeg");
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
