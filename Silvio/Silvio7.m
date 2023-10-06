@@ -7,15 +7,15 @@ xxxxxxxx
 %}
 
 #pre-defifinicoes do octave
-#clear all; more off;clc; close all; %limpa o ambiente de trabalho
-clearvars -except A; close all; ##### apaga todas as variaveis, menos a tabela A
+clear all; more off;clc; close all; %limpa o ambiente de trabalho
+#clearvars -except A; close all; ##### apaga todas as variaveis, menos a tabela A
 
 #pkg load control; pkg load signal;  %carrega pacotes
  pkg load io;  %carrega pacotes
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Dados %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-#A = xlsread('desvio_padrao_temp_temp.xlsx');                %abre o arquivo de dados txt
+A = xlsread('desvio_padrao_temp_temp.xlsx');                %abre o arquivo de dados txt
 
 
 #Ampl1_f200 = A(1:101,2);
