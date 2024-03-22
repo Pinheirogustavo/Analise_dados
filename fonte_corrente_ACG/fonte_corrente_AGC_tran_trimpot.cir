@@ -38,7 +38,7 @@ C1	vin	v1	1.6u
 R1	v1	GND	10k
 X_U1	v1	v2	vcc	vee	v2	AD826A
 X_U2	v2	vrh	vcc	vee	vout	AD826A
-R2	vout	vrh	10	200k
+R2	vout	vrh	200k
 Rs	vrh	GND	1k
 
 

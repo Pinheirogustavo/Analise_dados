@@ -1,11 +1,11 @@
 clear all; close all; clc;
 
-Rf = 200e3;
-Rh = linspace(1e3,100e3,99);
+Rf = 50e3;
+Rs = linspace(1e3,100e3,99);
 
-Gain = (1+(Rf./Rh));
+Gain = -(Rf./Rs);
 
-A = 1; f=250e3;
+A = 1; f=100e3;
 tempo = [0 : 1/(100*f) : 3/f]; % cinco periodos do sinal
 sinal = A*sin(2*pi*f*tempo);      %geracao da onda senoidal , sin(w.t), w = 2.pi/T
 
@@ -32,7 +32,7 @@ lgd= legend;
 
 figure(2)
 line([0 1] , [A A] ,"linestyle", "-", "color", "r")
-ylim([A-1 9])
+ylim([-9 A])
 grid on
 hold on
 for idx = 1:n_plots
