@@ -51,3 +51,10 @@ Na linha 57 é possível definir o tamanho mínimo para que uma banda obtida da 
 Esta função serve para obter uma visão geral dos dados capturados, imprimindo todos os canais no mesmo gráfico Amplitude(mV) X tempo(us) e salvando este em um arquivo pdf 'nome_do_arquivo_plot_dados_originais.pdf'
 
 ![graph plot_dados](https://github.com/Pinheirogustavo/Analise_dados/blob/main/funcoes%20octave%20analise%20oscilocopio/prints/gus_plot_dados_originais.png)
+
+
+## plot_dados_fft.m
+
+Esta função permite observar a FFT de cada canal obtido com o osciloscópio, onde é impresso o espectro do sinal e um arquivo pdf é gerado com o nome 'nome_do_arquivo_plot_fft.pdf'.
+
+![graph plot_dados_fft](https://github.com/Pinheirogustavo/Analise_dados/blob/main/funcoes%20octave%20analise%20oscilocopio/prints/gus_plot_dados_originais_fft.png)
