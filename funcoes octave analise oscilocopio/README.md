@@ -57,4 +57,4 @@ Esta função serve para obter uma visão geral dos dados capturados, imprimindo
 
 Esta função permite observar a FFT de cada canal obtido com o osciloscópio, onde é impresso o espectro do sinal e um arquivo pdf é gerado com o nome 'nome_do_arquivo_plot_fft.pdf'.
 
-![graph plot_dados_fft](https://github.com/Pinheirogustavo/Analise_dados/blob/main/funcoes%20octave%20analise%20oscilocopio/prints/gus_plot_dados_originais_fft.png)
+![graph plot_dados_fft](https://github.com/Pinheirogustavo/Analise_dados/blob/main/funcoes%20octave%20analise%20oscilocopio/prints/gus_plot_fft.png)
