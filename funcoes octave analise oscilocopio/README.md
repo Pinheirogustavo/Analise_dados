@@ -45,3 +45,9 @@ Na linha 57 é possível definir o tamanho mínimo para que uma banda obtida da 
 #### saída do comando help
 
 ![help abre_dados](https://github.com/Pinheirogustavo/Analise_dados/blob/main/funcoes%20octave%20analise%20oscilocopio/prints/help_abre_dados.png)
+
+## plot_dados.m
+
+Esta função serve para obter uma visão geral dos dados capturados, imprimindo todos os canais no mesmo gráfico Amplitude(mV) X tempo(us) e salvando este em um arquivo pdf 'nome_do_arquivo_plot_dados_originais.pdf'
+
+![graph plot_dados](https://github.com/Pinheirogustavo/Analise_dados/blob/main/funcoes%20octave%20analise%20oscilocopio/prints/gus_plot_dados_originais.pdf)
