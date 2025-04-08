@@ -1,9 +1,9 @@
 function  [] = plot_analise_grafica_completa()
   %[] = plot_analise_grafica_completa()
   %
-  %funcao 'plot_analise_grafica_completa': plota todos os canais obtidos por osciloscopio e a fft do canal desejado.
+  %funcao 'plot_analise_grafica_sinal_e_fft': plota apenas o sinal captado e a fft do canal desejado a partir dos dados obtidos por osciloscopio.
     %
-    % Gera um arquivo 'nome_do_arquivo_plot_analise_grafica_completa.pdf' com os graficos dos canais capturados por osciloscopio e da fft do canal desejado.
+    % Gera um arquivo 'nome_do_arquivo_plot_analise_grafica_sinal_e_fft.pdf' com os graficos de sinal e sua fft do canal desejado.
     %
     %Retorna: nada.
     %%%%
@@ -94,7 +94,7 @@ function  [] = plot_analise_grafica_completa()
 
     hold off
 
-    nome_arquivo = strcat(nome_arquivo,'_plot_analise_grafica_completa.pdf');
+    nome_arquivo = strcat(nome_arquivo,'_plot_analise_grafica_sinal_e_fft.pdf');
     print(nome_arquivo,"-S850,450","-F:10")
         %F:?? : tamanho da fonte usada
 
