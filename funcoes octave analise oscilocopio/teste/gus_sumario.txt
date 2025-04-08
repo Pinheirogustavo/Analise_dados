@@ -1,0 +1,90 @@
+tensao pico a pico(V): 0.589950
+amplitude do sinal(V): 0.294975
+tensao RMS(V): 0.202191
+tensao maxima(V): 0.266332
+tensao minima(V): -0.323618
+tensao media(V): -0.027674
+Componentes presentes significativas (2@amplitudeMaxima): 
+frequencia (kHz): 100.200401
+amplitude (V): 0.282693
+tensao pico a pico(V): 0.589950
+amplitude do sinal(V): 0.294975
+tensao RMS(V): 0.202191
+tensao maxima(V): 0.266332
+tensao minima(V): -0.323618
+tensao media(V): -0.027674
+Componentes presentes significativas (2@amplitudeMaxima): 
+frequencia (kHz): 100.200401
+amplitude (V): 0.282693
+tensao pico a pico(V): 0.589950
+amplitude do sinal(V): 0.294975
+tensao RMS(V): 0.202191
+tensao maxima(V): 0.266332
+tensao minima(V): -0.323618
+tensao media(V): -0.027674
+Componentes presentes significativas (2@amplitudeMaxima): 
+frequencia (kHz): 100.200401
+amplitude (V): 0.282693
+error: Invalid call to disp.  Correct usage is:
+
+ -- disp (X)
+ -- STR = disp (X)
+error: called from
+    print_usage at line 105 column 5
+    sumariza_dados at line 39 column 1
+>> sumariza_dados
+Digite o nome do arquivo de dados: gus
+Digite o numero de linhas de cabecalho do aquivo: 6
+Digite o numero do canal a ser analisado: 1
+error: Invalid call to disp.  Correct usage is:
+
+ -- disp (X)
+ -- STR = disp (X)
+error: called from
+    print_usage at line 105 column 5
+    sumariza_dados at line 39 column 1
+>> canal = input('Digite o numero do canal a ser analisado: ');
+Digite o numero do canal a ser analisado: 1
+>> canal = input('Digite o numero do canal a ser analisado: ');
+Digite o numero do canal a ser analisado: sdds
+error: 'sdds' undefined near line 1, column 1
+>> sumariza_dados
+Digite o nome do arquivo de dados: gus
+Digite o numero de linhas de cabecalho do aquivo: 6
+Digite o numero do canal a ser analisado: 1
+nome do arquivo: gus
+tensao pico a pico(V): 0.589950
+amplitude do sinal(V): 0.294975
+tensao RMS(V): 0.202191
+tensao maxima(V): 0.266332
+tensao minima(V): -0.323618
+tensao media(V): -0.027674
+Componentes presentes significativas (2@amplitudeMaxima): 
+frequencia (kHz): 100.200401
+amplitude (V): 0.282693
+nome do arquivo: gus
+warning: implicit conversion from numeric to char
+warning: called from
+    sumariza_dados at line 40 column 1
+
+canal: 
+tensao pico a pico(V): 0.589950
+amplitude do sinal(V): 0.294975
+tensao RMS(V): 0.202191
+tensao maxima(V): 0.266332
+tensao minima(V): -0.323618
+tensao media(V): -0.027674
+Componentes presentes significativas (2@amplitudeMaxima): 
+frequencia (kHz): 100.200401
+amplitude (V): 0.282693
+nome do arquivo: gus
+canal: 1
+tensao pico a pico(V): 0.589950
+amplitude do sinal(V): 0.294975
+tensao RMS(V): 0.202191
+tensao maxima(V): 0.266332
+tensao minima(V): -0.323618
+tensao media(V): -0.027674
+Componentes presentes significativas (2@amplitudeMaxima): 
+frequencia (kHz): 100.200401
+amplitude (V): 0.282693

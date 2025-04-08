@@ -36,6 +36,8 @@ nome_txt = strcat(nome_arquivo,'_sumario.txt'); %comandos para salvar txt
 diary(nome_txt)                                 %com os resultados sumarizados
 diary on
 
+disp(['nome do arquivo: ',nome_arquivo]);
+disp(['canal: ', num2str(canal)]);
 %%%%%%%%%%%%%%%%%%%%%%%%% Tensao pico a pico%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %PeakToPeak_Amplitude = max(abs(dados_original))*2 - mean(dados_original)*2

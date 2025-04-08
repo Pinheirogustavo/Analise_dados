@@ -1,0 +1,734 @@
+{
+  [1,1] = gus
+}
+{
+  [1,1] = canal1
+}
+0.5899
+0.2950
+0.2022
+0.2663
+-0.3236
+-0.027674
+{
+  [1,1] = gus
+}
+{
+  [1,1] = canal2
+}
+5.2462
+2.6231
+3.2151
+5.1457
+-0.1005
+2.0591
+{
+  [1,1] = gus
+}
+{
+  [1,1] = canal1
+}
+0.5899
+0.2950
+0.2022
+0.2663
+-0.3236
+-0.027674
+error: memoria(_,7): out of bound 6 (dimensions are 2x6)
+error: called from
+    sumariza_varios_dados at line 138 column 9
+>> sumariza_varios_dados
+Digite o nome do arquivo de dados: gus
+Digite o numero de linhas de cabecalho do aquivo: 6
+Digite o numero do canal a ser analisado: 2
+tensao pico a pico(V): 5.246231
+amplitude do sinal(V): 2.623116
+tensao RMS(V): 3.215068
+tensao maxima(V): 5.145729
+tensao minima(V): -0.100503
+tensao media(V): 2.059113
+Componentes presentes significativas (20@amplitudeMaxima): 
+frequencia (kHz): 60.120240
+amplitude (V): 0.028170
+frequencia (kHz): 100.200401
+amplitude (V): 3.091521
+frequencia (kHz): 200.400802
+amplitude (V): 0.881852
+frequencia (kHz): 260.521042
+amplitude (V): 0.015920
+frequencia (kHz): 300.601202
+amplitude (V): 0.690127
+frequencia (kHz): 400.801603
+amplitude (V): 0.735669
+frequencia (kHz): 440.881764
+amplitude (V): 0.024929
+frequencia (kHz): 501.002004
+amplitude (V): 0.077386
+frequencia (kHz): 561.122244
+amplitude (V): 0.028942
+frequencia (kHz): 601.202405
+amplitude (V): 0.522943
+frequencia (kHz): 641.282565
+amplitude (V): 0.028995
+frequencia (kHz): 701.402806
+amplitude (V): 0.201003
+frequencia (kHz): 761.523046
+amplitude (V): 0.018882
+frequencia (kHz): 801.603206
+amplitude (V): 0.285298
+frequencia (kHz): 901.803607
+amplitude (V): 0.297539
+frequencia (kHz): 941.883768
+amplitude (V): 0.021761
+frequencia (kHz): 1002.004008
+amplitude (V): 0.072309
+frequencia (kHz): 1062.124248
+amplitude (V): 0.029676
+frequencia (kHz): 1102.204409
+amplitude (V): 0.274474
+frequencia (kHz): 1142.284569
+amplitude (V): 0.024545
+frequencia (kHz): 1202.404810
+amplitude (V): 0.082600
+frequencia (kHz): 1262.525050
+amplitude (V): 0.021347
+frequencia (kHz): 1302.605210
+amplitude (V): 0.180275
+frequencia (kHz): 1402.805611
+amplitude (V): 0.164931
+frequencia (kHz): 1442.885772
+amplitude (V): 0.016941
+frequencia (kHz): 1503.006012
+amplitude (V): 0.066933
+frequencia (kHz): 1563.126253
+amplitude (V): 0.030402
+frequencia (kHz): 1603.206413
+amplitude (V): 0.174237
+frequencia (kHz): 1643.286573
+amplitude (V): 0.020699
+frequencia (kHz): 1703.406814
+amplitude (V): 0.034715
+frequencia (kHz): 1763.527054
+amplitude (V): 0.022722
+frequencia (kHz): 1803.607214
+amplitude (V): 0.130488
+frequencia (kHz): 1903.807615
+amplitude (V): 0.099721
+frequencia (kHz): 1943.887776
+amplitude (V): 0.013759
+frequencia (kHz): 2004.008016
+amplitude (V): 0.060446
+frequencia (kHz): 2064.128257
+amplitude (V): 0.031300
+frequencia (kHz): 2104.208417
+amplitude (V): 0.119251
+frequencia (kHz): 2144.288577
+amplitude (V): 0.018344
+frequencia (kHz): 2184.368737
+amplitude (V): 0.019881
+frequencia (kHz): 2224.448898
+amplitude (V): 0.017400
+frequencia (kHz): 2264.529058
+amplitude (V): 0.025965
+frequencia (kHz): 2304.609218
+amplitude (V): 0.098064
+frequencia (kHz): 2404.809619
+amplitude (V): 0.060864
+frequencia (kHz): 2464.929860
+amplitude (V): 0.012910
+frequencia (kHz): 2505.010020
+amplitude (V): 0.052876
+frequencia (kHz): 2565.130261
+amplitude (V): 0.027571
+frequencia (kHz): 2605.210421
+amplitude (V): 0.081395
+frequencia (kHz): 2645.290581
+amplitude (V): 0.015629
+frequencia (kHz): 2685.370741
+amplitude (V): 0.014592
+frequencia (kHz): 2725.450902
+amplitude (V): 0.017359
+frequencia (kHz): 2765.531062
+amplitude (V): 0.024221
+frequencia (kHz): 2805.611222
+amplitude (V): 0.072431
+frequencia (kHz): 2905.811623
+amplitude (V): 0.036510
+frequencia (kHz): 2965.931864
+amplitude (V): 0.014138
+frequencia (kHz): 3006.012024
+amplitude (V): 0.045253
+frequencia (kHz): 3066.132265
+amplitude (V): 0.023924
+frequencia (kHz): 3106.212425
+amplitude (V): 0.055823
+frequencia (kHz): 3146.292585
+amplitude (V): 0.010386
+frequencia (kHz): 3186.372745
+amplitude (V): 0.011667
+frequencia (kHz): 3226.452906
+amplitude (V): 0.017144
+frequencia (kHz): 3266.533066
+amplitude (V): 0.024594
+frequencia (kHz): 3306.613226
+amplitude (V): 0.054490
+frequencia (kHz): 3406.813627
+amplitude (V): 0.020503
+frequencia (kHz): 3466.933868
+amplitude (V): 0.014868
+frequencia (kHz): 3507.014028
+amplitude (V): 0.034305
+frequencia (kHz): 3567.134269
+amplitude (V): 0.022638
+frequencia (kHz): 3607.214429
+amplitude (V): 0.038419
+frequencia (kHz): 3647.294589
+amplitude (V): 0.010432
+frequencia (kHz): 3727.454910
+amplitude (V): 0.014012
+frequencia (kHz): 3807.615230
+amplitude (V): 0.040661
+frequencia (kHz): 3867.735471
+amplitude (V): 0.014925
+frequencia (kHz): 3967.935872
+amplitude (V): 0.014323
+frequencia (kHz): 4008.016032
+amplitude (V): 0.028724
+frequencia (kHz): 4068.136273
+amplitude (V): 0.019090
+frequencia (kHz): 4108.216433
+amplitude (V): 0.026746
+frequencia (kHz): 4228.456914
+amplitude (V): 0.011923
+frequencia (kHz): 4268.537074
+amplitude (V): 0.018375
+frequencia (kHz): 4308.617234
+amplitude (V): 0.028705
+frequencia (kHz): 4368.737475
+amplitude (V): 0.013150
+frequencia (kHz): 4428.857715
+amplitude (V): 0.007331
+frequencia (kHz): 4468.937876
+amplitude (V): 0.013672
+frequencia (kHz): 4509.018036
+amplitude (V): 0.022059
+frequencia (kHz): 4569.138277
+amplitude (V): 0.017992
+frequencia (kHz): 4609.218437
+amplitude (V): 0.018346
+frequencia (kHz): 4729.458918
+amplitude (V): 0.009361
+frequencia (kHz): 4769.539078
+amplitude (V): 0.016308
+frequencia (kHz): 4809.619238
+amplitude (V): 0.019051
+frequencia (kHz): 4889.779559
+amplitude (V): 0.011750
+frequencia (kHz): 4969.939880
+amplitude (V): 0.011852
+frequencia (kHz): 5010.020040
+amplitude (V): 0.018210
+frequencia (kHz): 5070.140281
+amplitude (V): 0.014067
+frequencia (kHz): 5210.420842
+amplitude (V): 0.009667
+frequencia (kHz): 5270.541082
+amplitude (V): 0.014542
+frequencia (kHz): 5310.621242
+amplitude (V): 0.012177
+frequencia (kHz): 5390.781563
+amplitude (V): 0.006839
+frequencia (kHz): 5430.861723
+amplitude (V): 0.005399
+frequencia (kHz): 5490.981964
+amplitude (V): 0.010517
+frequencia (kHz): 5571.142285
+amplitude (V): 0.010324
+frequencia (kHz): 5691.382766
+amplitude (V): 0.008290
+frequencia (kHz): 5771.543086
+amplitude (V): 0.009944
+frequencia (kHz): 5891.783567
+amplitude (V): 0.005622
+frequencia (kHz): 5991.983968
+amplitude (V): 0.008581
+frequencia (kHz): 6072.144289
+amplitude (V): 0.009202
+frequencia (kHz): 6192.384770
+amplitude (V): 0.007140
+frequencia (kHz): 6292.585170
+amplitude (V): 0.008473
+frequencia (kHz): 6372.745491
+amplitude (V): 0.005481
+frequencia (kHz): 6492.985972
+amplitude (V): 0.007907
+frequencia (kHz): 6573.146293
+amplitude (V): 0.007862
+frequencia (kHz): 6693.386774
+amplitude (V): 0.008160
+frequencia (kHz): 6773.547094
+amplitude (V): 0.005587
+frequencia (kHz): 6993.987976
+amplitude (V): 0.006170
+frequencia (kHz): 7074.148297
+amplitude (V): 0.006434
+frequencia (kHz): 7194.388778
+amplitude (V): 0.007118
+frequencia (kHz): 7274.549098
+amplitude (V): 0.007107
+frequencia (kHz): 7374.749499
+amplitude (V): 0.005395
+frequencia (kHz): 7575.150301
+amplitude (V): 0.005687
+frequencia (kHz): 7695.390782
+amplitude (V): 0.006057
+frequencia (kHz): 7875.751503
+amplitude (V): 0.005830
+frequencia (kHz): 7995.991984
+amplitude (V): 0.005395
+frequencia (kHz): 8076.152305
+amplitude (V): 0.005961
+frequencia (kHz): 8376.753507
+amplitude (V): 0.006972
+frequencia (kHz): 8496.993988
+amplitude (V): 0.006258
+frequencia (kHz): 8537.074148
+amplitude (V): 0.005619
+frequencia (kHz): 8997.995992
+amplitude (V): 0.006024
+frequencia (kHz): 9078.156313
+amplitude (V): 0.006736
+frequencia (kHz): 9298.597194
+amplitude (V): 0.006494
+frequencia (kHz): 9579.158317
+amplitude (V): 0.006322
+frequencia (kHz): 9679.358717
+amplitude (V): 0.007658
+frequencia (kHz): 10000.000000
+amplitude (V): 0.006216
+frequencia (kHz): 10240.480962
+amplitude (V): 0.006416
+frequencia (kHz): 10300.601202
+amplitude (V): 0.006418
+frequencia (kHz): 10741.482966
+amplitude (V): 0.005660
+frequencia (kHz): 10801.603206
+amplitude (V): 0.007055
+frequencia (kHz): 11102.204409
+amplitude (V): 0.006202
+frequencia (kHz): 11242.484970
+amplitude (V): 0.005780
+frequencia (kHz): 11743.486974
+amplitude (V): 0.006229
+frequencia (kHz): 11803.607214
+amplitude (V): 0.007483
+frequencia (kHz): 12044.088176
+amplitude (V): 0.005725
+frequencia (kHz): 12104.208417
+amplitude (V): 0.005386
+frequencia (kHz): 12444.889780
+amplitude (V): 0.005494
+frequencia (kHz): 12805.611222
+amplitude (V): 0.005779
+frequencia (kHz): 12945.891784
+amplitude (V): 0.005673
+frequencia (kHz): 13246.492986
+amplitude (V): 0.005673
+frequencia (kHz): 14248.496994
+amplitude (V): 0.005605
+frequencia (kHz): 15951.903808
+amplitude (V): 0.006074
+frequencia (kHz): 15991.983968
+amplitude (V): 0.005429
+frequencia (kHz): 16152.304609
+amplitude (V): 0.005427
+frequencia (kHz): 16693.386774
+amplitude (V): 0.006010
+frequencia (kHz): 17374.749499
+amplitude (V): 0.005799
+frequencia (kHz): 17695.390782
+amplitude (V): 0.006942
+frequencia (kHz): 19018.036072
+amplitude (V): 0.005768
+frequencia (kHz): 19819.639279
+amplitude (V): 0.005655
+Deseja adicionar algum dado? (s ou n) n
+{
+  [1,1] = gus
+}
+{
+  [1,1] = canal2
+}
+5.2462
+2.6231
+3.2151
+5.1457
+-0.1005
+2.0591
+error: memoria(_,7): out of bound 6 (dimensions are 1x6)
+error: called from
+    sumariza_varios_dados at line 140 column 9
+>> sumariza_varios_dados
+Digite o nome do arquivo de dados: gus
+Digite o numero de linhas de cabecalho do aquivo: 6
+Digite o numero do canal a ser analisado: 2
+tensao pico a pico(V): 5.246231
+amplitude do sinal(V): 2.623116
+tensao RMS(V): 3.215068
+tensao maxima(V): 5.145729
+tensao minima(V): -0.100503
+tensao media(V): 2.059113
+Componentes presentes significativas (20@amplitudeMaxima): 
+frequencia (kHz): 60.120240
+amplitude (V): 0.028170
+frequencia (kHz): 100.200401
+amplitude (V): 3.091521
+frequencia (kHz): 200.400802
+amplitude (V): 0.881852
+frequencia (kHz): 260.521042
+amplitude (V): 0.015920
+frequencia (kHz): 300.601202
+amplitude (V): 0.690127
+frequencia (kHz): 400.801603
+amplitude (V): 0.735669
+frequencia (kHz): 440.881764
+amplitude (V): 0.024929
+frequencia (kHz): 501.002004
+amplitude (V): 0.077386
+frequencia (kHz): 561.122244
+amplitude (V): 0.028942
+frequencia (kHz): 601.202405
+amplitude (V): 0.522943
+frequencia (kHz): 641.282565
+amplitude (V): 0.028995
+frequencia (kHz): 701.402806
+amplitude (V): 0.201003
+frequencia (kHz): 761.523046
+amplitude (V): 0.018882
+frequencia (kHz): 801.603206
+amplitude (V): 0.285298
+frequencia (kHz): 901.803607
+amplitude (V): 0.297539
+frequencia (kHz): 941.883768
+amplitude (V): 0.021761
+frequencia (kHz): 1002.004008
+amplitude (V): 0.072309
+frequencia (kHz): 1062.124248
+amplitude (V): 0.029676
+frequencia (kHz): 1102.204409
+amplitude (V): 0.274474
+frequencia (kHz): 1142.284569
+amplitude (V): 0.024545
+frequencia (kHz): 1202.404810
+amplitude (V): 0.082600
+frequencia (kHz): 1262.525050
+amplitude (V): 0.021347
+frequencia (kHz): 1302.605210
+amplitude (V): 0.180275
+frequencia (kHz): 1402.805611
+amplitude (V): 0.164931
+frequencia (kHz): 1442.885772
+amplitude (V): 0.016941
+frequencia (kHz): 1503.006012
+amplitude (V): 0.066933
+frequencia (kHz): 1563.126253
+amplitude (V): 0.030402
+frequencia (kHz): 1603.206413
+amplitude (V): 0.174237
+frequencia (kHz): 1643.286573
+amplitude (V): 0.020699
+frequencia (kHz): 1703.406814
+amplitude (V): 0.034715
+frequencia (kHz): 1763.527054
+amplitude (V): 0.022722
+frequencia (kHz): 1803.607214
+amplitude (V): 0.130488
+frequencia (kHz): 1903.807615
+amplitude (V): 0.099721
+frequencia (kHz): 1943.887776
+amplitude (V): 0.013759
+frequencia (kHz): 2004.008016
+amplitude (V): 0.060446
+frequencia (kHz): 2064.128257
+amplitude (V): 0.031300
+frequencia (kHz): 2104.208417
+amplitude (V): 0.119251
+frequencia (kHz): 2144.288577
+amplitude (V): 0.018344
+frequencia (kHz): 2184.368737
+amplitude (V): 0.019881
+frequencia (kHz): 2224.448898
+amplitude (V): 0.017400
+frequencia (kHz): 2264.529058
+amplitude (V): 0.025965
+frequencia (kHz): 2304.609218
+amplitude (V): 0.098064
+frequencia (kHz): 2404.809619
+amplitude (V): 0.060864
+frequencia (kHz): 2464.929860
+amplitude (V): 0.012910
+frequencia (kHz): 2505.010020
+amplitude (V): 0.052876
+frequencia (kHz): 2565.130261
+amplitude (V): 0.027571
+frequencia (kHz): 2605.210421
+amplitude (V): 0.081395
+frequencia (kHz): 2645.290581
+amplitude (V): 0.015629
+frequencia (kHz): 2685.370741
+amplitude (V): 0.014592
+frequencia (kHz): 2725.450902
+amplitude (V): 0.017359
+frequencia (kHz): 2765.531062
+amplitude (V): 0.024221
+frequencia (kHz): 2805.611222
+amplitude (V): 0.072431
+frequencia (kHz): 2905.811623
+amplitude (V): 0.036510
+frequencia (kHz): 2965.931864
+amplitude (V): 0.014138
+frequencia (kHz): 3006.012024
+amplitude (V): 0.045253
+frequencia (kHz): 3066.132265
+amplitude (V): 0.023924
+frequencia (kHz): 3106.212425
+amplitude (V): 0.055823
+frequencia (kHz): 3146.292585
+amplitude (V): 0.010386
+frequencia (kHz): 3186.372745
+amplitude (V): 0.011667
+frequencia (kHz): 3226.452906
+amplitude (V): 0.017144
+frequencia (kHz): 3266.533066
+amplitude (V): 0.024594
+frequencia (kHz): 3306.613226
+amplitude (V): 0.054490
+frequencia (kHz): 3406.813627
+amplitude (V): 0.020503
+frequencia (kHz): 3466.933868
+amplitude (V): 0.014868
+frequencia (kHz): 3507.014028
+amplitude (V): 0.034305
+frequencia (kHz): 3567.134269
+amplitude (V): 0.022638
+frequencia (kHz): 3607.214429
+amplitude (V): 0.038419
+frequencia (kHz): 3647.294589
+amplitude (V): 0.010432
+frequencia (kHz): 3727.454910
+amplitude (V): 0.014012
+frequencia (kHz): 3807.615230
+amplitude (V): 0.040661
+frequencia (kHz): 3867.735471
+amplitude (V): 0.014925
+frequencia (kHz): 3967.935872
+amplitude (V): 0.014323
+frequencia (kHz): 4008.016032
+amplitude (V): 0.028724
+frequencia (kHz): 4068.136273
+amplitude (V): 0.019090
+frequencia (kHz): 4108.216433
+amplitude (V): 0.026746
+frequencia (kHz): 4228.456914
+amplitude (V): 0.011923
+frequencia (kHz): 4268.537074
+amplitude (V): 0.018375
+frequencia (kHz): 4308.617234
+amplitude (V): 0.028705
+frequencia (kHz): 4368.737475
+amplitude (V): 0.013150
+frequencia (kHz): 4428.857715
+amplitude (V): 0.007331
+frequencia (kHz): 4468.937876
+amplitude (V): 0.013672
+frequencia (kHz): 4509.018036
+amplitude (V): 0.022059
+frequencia (kHz): 4569.138277
+amplitude (V): 0.017992
+frequencia (kHz): 4609.218437
+amplitude (V): 0.018346
+frequencia (kHz): 4729.458918
+amplitude (V): 0.009361
+frequencia (kHz): 4769.539078
+amplitude (V): 0.016308
+frequencia (kHz): 4809.619238
+amplitude (V): 0.019051
+frequencia (kHz): 4889.779559
+amplitude (V): 0.011750
+frequencia (kHz): 4969.939880
+amplitude (V): 0.011852
+frequencia (kHz): 5010.020040
+amplitude (V): 0.018210
+frequencia (kHz): 5070.140281
+amplitude (V): 0.014067
+frequencia (kHz): 5210.420842
+amplitude (V): 0.009667
+frequencia (kHz): 5270.541082
+amplitude (V): 0.014542
+frequencia (kHz): 5310.621242
+amplitude (V): 0.012177
+frequencia (kHz): 5390.781563
+amplitude (V): 0.006839
+frequencia (kHz): 5430.861723
+amplitude (V): 0.005399
+frequencia (kHz): 5490.981964
+amplitude (V): 0.010517
+frequencia (kHz): 5571.142285
+amplitude (V): 0.010324
+frequencia (kHz): 5691.382766
+amplitude (V): 0.008290
+frequencia (kHz): 5771.543086
+amplitude (V): 0.009944
+frequencia (kHz): 5891.783567
+amplitude (V): 0.005622
+frequencia (kHz): 5991.983968
+amplitude (V): 0.008581
+frequencia (kHz): 6072.144289
+amplitude (V): 0.009202
+frequencia (kHz): 6192.384770
+amplitude (V): 0.007140
+frequencia (kHz): 6292.585170
+amplitude (V): 0.008473
+frequencia (kHz): 6372.745491
+amplitude (V): 0.005481
+frequencia (kHz): 6492.985972
+amplitude (V): 0.007907
+frequencia (kHz): 6573.146293
+amplitude (V): 0.007862
+frequencia (kHz): 6693.386774
+amplitude (V): 0.008160
+frequencia (kHz): 6773.547094
+amplitude (V): 0.005587
+frequencia (kHz): 6993.987976
+amplitude (V): 0.006170
+frequencia (kHz): 7074.148297
+amplitude (V): 0.006434
+frequencia (kHz): 7194.388778
+amplitude (V): 0.007118
+frequencia (kHz): 7274.549098
+amplitude (V): 0.007107
+frequencia (kHz): 7374.749499
+amplitude (V): 0.005395
+frequencia (kHz): 7575.150301
+amplitude (V): 0.005687
+frequencia (kHz): 7695.390782
+amplitude (V): 0.006057
+frequencia (kHz): 7875.751503
+amplitude (V): 0.005830
+frequencia (kHz): 7995.991984
+amplitude (V): 0.005395
+frequencia (kHz): 8076.152305
+amplitude (V): 0.005961
+frequencia (kHz): 8376.753507
+amplitude (V): 0.006972
+frequencia (kHz): 8496.993988
+amplitude (V): 0.006258
+frequencia (kHz): 8537.074148
+amplitude (V): 0.005619
+frequencia (kHz): 8997.995992
+amplitude (V): 0.006024
+frequencia (kHz): 9078.156313
+amplitude (V): 0.006736
+frequencia (kHz): 9298.597194
+amplitude (V): 0.006494
+frequencia (kHz): 9579.158317
+amplitude (V): 0.006322
+frequencia (kHz): 9679.358717
+amplitude (V): 0.007658
+frequencia (kHz): 10000.000000
+amplitude (V): 0.006216
+frequencia (kHz): 10240.480962
+amplitude (V): 0.006416
+frequencia (kHz): 10300.601202
+amplitude (V): 0.006418
+frequencia (kHz): 10741.482966
+amplitude (V): 0.005660
+frequencia (kHz): 10801.603206
+amplitude (V): 0.007055
+frequencia (kHz): 11102.204409
+amplitude (V): 0.006202
+frequencia (kHz): 11242.484970
+amplitude (V): 0.005780
+frequencia (kHz): 11743.486974
+amplitude (V): 0.006229
+frequencia (kHz): 11803.607214
+amplitude (V): 0.007483
+frequencia (kHz): 12044.088176
+amplitude (V): 0.005725
+frequencia (kHz): 12104.208417
+amplitude (V): 0.005386
+frequencia (kHz): 12444.889780
+amplitude (V): 0.005494
+frequencia (kHz): 12805.611222
+amplitude (V): 0.005779
+frequencia (kHz): 12945.891784
+amplitude (V): 0.005673
+frequencia (kHz): 13246.492986
+amplitude (V): 0.005673
+frequencia (kHz): 14248.496994
+amplitude (V): 0.005605
+frequencia (kHz): 15951.903808
+amplitude (V): 0.006074
+frequencia (kHz): 15991.983968
+amplitude (V): 0.005429
+frequencia (kHz): 16152.304609
+amplitude (V): 0.005427
+frequencia (kHz): 16693.386774
+amplitude (V): 0.006010
+frequencia (kHz): 17374.749499
+amplitude (V): 0.005799
+frequencia (kHz): 17695.390782
+amplitude (V): 0.006942
+frequencia (kHz): 19018.036072
+amplitude (V): 0.005768
+frequencia (kHz): 19819.639279
+amplitude (V): 0.005655
+Deseja adicionar algum dado? (s ou n) n
+{
+  [1,1] = gus
+}
+{
+  [1,1] = canal2
+}
+5.2462
+2.6231
+3.2151
+5.1457
+-0.1005
+2.0591
+error: memoria(_,7): out of bound 6 (dimensions are 1x6)
+error: called from
+    sumariza_varios_dados at line 140 column 9
+>> sumariza_varios_dados
+Digite o nome do arquivo de dados: gus
+Digite o numero de linhas de cabecalho do aquivo: 6
+Digite o numero do canal a ser analisado: 1
+tensao pico a pico(V): 0.589950
+amplitude do sinal(V): 0.294975
+tensao RMS(V): 0.202191
+tensao maxima(V): 0.266332
+tensao minima(V): -0.323618
+tensao media(V): -0.027674
+Componentes presentes significativas (20@amplitudeMaxima): 
+frequencia (kHz): 100.200401
+amplitude (V): 0.282693
+Deseja adicionar algum dado? (s ou n) n
+{
+  [1,1] = gus
+}
+{
+  [1,1] = canal1
+}
+0.5899
+0.2950
+0.2022
+0.2663
+-0.3236
+-0.027674
+error: memoria(_,7): out of bound 6 (dimensions are 1x6)
+error: called from
+    sumariza_varios_dados at line 140 column 9
+>> sumariza_dados
+Digite o nome do arquivo de dados: gus
+Digite o numero de linhas de cabecalho do aquivo: 6
+Digite o numero do canal a ser analisado: 1
