@@ -27,6 +27,8 @@ function  [] = plot_analise_grafica_completa()
     xlabel('t(us)','FontSize',18)
     ylabel('amplitude(mV)','FontSize',18)
     title(['Sinal - ',nome_arquivo])
+    legend_signal = sprintf('Canal %d',canal);
+    legend(legend_signal);
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FFT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

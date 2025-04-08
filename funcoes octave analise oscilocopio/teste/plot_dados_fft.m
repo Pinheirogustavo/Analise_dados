@@ -25,6 +25,8 @@ function  [] = plot_dados_fft()
     subplot(3,1,1);
     plot(Fs/L*(0:L-1),abs(Y),"LineWidth",3)
     title(["Magnitude complexa do espectro da fft - ", nome_arquivo])
+    legend_signal = sprintf('Canal %d',canal);
+    legend(legend_signal);
     xlabel("f (Hz)")
     ylabel("|fft(X)|")
 
@@ -32,6 +34,8 @@ function  [] = plot_dados_fft()
     subplot(3,1,2);
     plot(Fs/L*(-L/2:L/2-1),abs(fftshift(Y)),"LineWidth",3)
     title(["fft Spectrum in the Positive and Negative Frequencies - ", nome_arquivo])
+    legend_signal = sprintf('Canal %d',canal);
+    legend(legend_signal);
     xlabel("f (Hz)")
     ylabel("|fft(sinal)|")
 
