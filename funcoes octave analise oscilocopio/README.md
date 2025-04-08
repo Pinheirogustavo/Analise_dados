@@ -105,12 +105,15 @@ Também é gerado um arquivo de texto 'nome_do_arquivo_sumario.txt' com todos os
 
 
 
-![prompt sumariza_dados](https://github.com/Pinheirogustavo/Analise_dados/blob/main/funcoes%20octave%20analise%20oscilocopio/prints/xxx.png)
+![prompt sumariza_dados](https://github.com/Pinheirogustavo/Analise_dados/blob/main/funcoes%20octave%20analise%20oscilocopio/prints/prompt_sumariza_dados.png)
 
+![txt sumariza_dados](https://github.com/Pinheirogustavo/Analise_dados/blob/main/funcoes%20octave%20analise%20oscilocopio/prints/txt_sumariza_dados.png)
 
 ## sumariza_varios_dados
 
-Essa função permite realizar a análise da função 'sumariza_dados' e salvar no mesmo arquivo de texto n canais de m sinais obtidos.
+Essa função permite realizar a análise de vários sinais considerando apenas os dados elétricos básicos, sem considerar as informações sobre as componentes espectrais do sinal; e salvar num único arquivo de texto os dados de n canais de m sinais obtidos.
+
+Este arquivo de texto gerado traz apenas os dados numéricos (6 dados) de cada sinal analisado. Isso permite criar uma tabela sistemática de vários sinais analisados, em que cada sinal ocupa o mesmo número de células. Caso queira informações espectrais, é melhor analisar cada sinal individualmente a partir da função 'sumariza_dados'.
 
 Exibe no prompt de comando os seguintes dados do canal desejado de cada dado:
 
@@ -134,4 +137,6 @@ Exibe no prompt de comando os seguintes dados do canal desejado de cada dado:
 
 #### ATENÇÃO: O arquivo .txt gerado adiciona novos dados abaixo dos ja existentes no arquivo .txt presente no mesmo diretorio.
 
-![prompt sumariza_varios_dados](https://github.com/Pinheirogustavo/Analise_dados/blob/main/funcoes%20octave%20analise%20oscilocopio/prints/xxx.png)
+![prompt sumariza_dados](https://github.com/Pinheirogustavo/Analise_dados/blob/main/funcoes%20octave%20analise%20oscilocopio/prints/prompt_sumariza_varios_dados.png)
+
+![txt sumariza_dados](https://github.com/Pinheirogustavo/Analise_dados/blob/main/funcoes%20octave%20analise%20oscilocopio/prints/txt_sumariza_varios_dados.png)
