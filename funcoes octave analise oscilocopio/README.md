@@ -12,7 +12,7 @@ Em geral os dados gravados em .csv a partir de osciloscópios de n canais são s
 
 Ao chamar a função 'abre_dados' os seguintes parâmetros são retornados:
 
-#### vetores
+##### vetores
 - dados_original: matriz com dados de tempos e tensoes adquiridas pelo osciloscopio;
 
 - vetor_tempo: vetor coluna com os tempos adquiridos pelo osciloscopio;
@@ -23,7 +23,7 @@ Ao chamar a função 'abre_dados' os seguintes parâmetros são retornados:
 
 - vetor_tensao_plot:vetor coluna com as tensoes (em milivolts) adquiridas pelo osciloscopio;
 
-#### Variaveis
+##### Variáveis
 - Ts: periodo de amostragem;
 
 - Fs: frequencia de amostragem;
@@ -34,7 +34,7 @@ Ao chamar a função 'abre_dados' os seguintes parâmetros são retornados:
 
 - nome_arquivo: nome com o qual o arquivo de dados foi salvo.
 
-### Tamanho mínimo do pico a ser detectado na fft
+##### Tamanho mínimo do pico a ser detectado na fft
 
 Na linha 57 é possível definir o tamanho mínimo para que uma banda obtida da fft seja considerada para detecção das componentes do sinal estudado. Esse tamanho é dado como porcentagem em relação ao tamanho do maior valor do sinal captado (default 2%).
 
@@ -42,7 +42,7 @@ Na linha 57 é possível definir o tamanho mínimo para que uma banda obtida da 
                                                 %(componente) ser detectado
                                                     %(2% tensao maxima)
 
-#### saída do comando help
+##### saída do comando help
 
 ![help abre_dados](https://github.com/Pinheirogustavo/Analise_dados/blob/main/funcoes%20octave%20analise%20oscilocopio/prints/help_abre_dados.png)
 
@@ -99,7 +99,7 @@ Ao chamar a função 'sumariza_dados' os seguintes parâmetros são retornados n
 
 Também é gerado um arquivo de texto 'nome_do_arquivo_sumario.txt' com todos os dados exibidos no prompt de comando.
 
-#### ATENÇÃO: O arquivo .txt gerado adiciona novos dados abaixo dos já existentes no arquivo .txt presente no mesmo diretorio.
+##### ATENÇÃO: O arquivo .txt gerado adiciona novos dados abaixo dos já existentes no arquivo .txt presente no mesmo diretorio.
 
 
 
@@ -135,7 +135,7 @@ Exibe no prompt de comando os seguintes dados do canal desejado de cada dado:
 
  Gera um arquivo 'nome_do_arquivo_sumariza_varios_dados.txt' com todos os dados exibidos no prompt de comando.
 
-#### ATENÇÃO: O arquivo .txt gerado adiciona novos dados abaixo dos ja existentes no arquivo .txt presente no mesmo diretorio.
+##### ATENÇÃO: O arquivo .txt gerado adiciona novos dados abaixo dos ja existentes no arquivo .txt presente no mesmo diretorio.
 
 ![prompt sumariza_dados](https://github.com/Pinheirogustavo/Analise_dados/blob/main/funcoes%20octave%20analise%20oscilocopio/prints/prompt_sumariza_varios_dados.png)
 
